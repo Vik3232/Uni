@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomies</title>
+    <script src="https://kit.fontawesome.com/7719243ec2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Login.css">
+    <style>
+        #Gender input{
+            font-size: 30px;
+            margin: 20px;
+        }
+        #Interest input{
+            font-size: 30px;
+            margin: 20px;
+        }
+        #Other input{
+            width: 100%;
+            font-size: 20px;
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 70px;
+            padding-right: 50px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        #Enter-city input{
+            width: 100%;
+            font-size: 20px;
+           margin-top: 15px;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        #Room-status select{
+            font-size: 15px;
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        #Budget select{
+            font-size: 15px;
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+</body>
+</html><section id="header">
+    <a href="#"><img src="Logos/Preview (1).png" alt="" ></a>
+
+    <div>
+        <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="Explore.html">Explore</a></li>
+            <li><a href="Upload.html">Upload</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="SignUp.html">SignUp</a></li>
+           
+            <li><a href="Location.html"><i class="fa-solid fa-heart  heart"></i></i></a></li>
+        </ul>
+    </div>
+    </section>
+
+    <section id="message">
+        <div id="message-1">
+        <a href="Contact.html" id="position"><i class="fa-solid fa-comment fa-2xl"></i></a>
+        <p id="position" style="color: black; margin-top: 22px; font-weight: 600;" >Contact-Us</p>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="container">
+            <div id="Details">
+                <h1>Enter Your Details:</h1>
+            </div>
+            <div id="register-form">
+        <form action="Data" method="post">
+                <div>
+                    <label for="Name">Full Name:</label>
+                    <input type="text" name="" id="Name" placeholder="Enter your Name" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="Name">Age:</label>
+                    <input type="number" name="" id="Name" placeholder="Enter your Age" required autocomplete="off" max="100" min="18">
+                </div>
+                <div>
+                    <label for="Name">Email:</label>
+                    <input type="email" name="" id="Name" placeholder="Enter your mail ID" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="Name">Password:</label>
+                    <input type="password" name="" id="Name" placeholder="Create your password" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="Name">Mobile:</label>
+                    <input type="number" name="" id="Name" placeholder="Enter Mobile number" required autocomplete="off">
+                </div>
+                <div>
+                    <label for="Name">City:</label>
+                    <input type="text" name="" id="Name" placeholder="Enter Your City" required autocomplete="off">
+                </div>
+                <div id="Gender">
+                    <label for="Name">Gender:</label>
+                    Male <input type="radio" name="a" id="">
+                    Female <input type="radio" name="b" id="">
+                    Other <input type="radio" name="c" id="">
+                </div>
+                <div id="Interest">
+                <label for="Interest">Interests & Hobbies:</label>
+                Cooking <input type="checkbox" name="c" id="">
+                    Games<input type="checkbox" name="d" id="">
+                    Reading<input type="checkbox" name="e" id="">
+                    Painting<input type="checkbox" name="f" id="">
+                    <div></div>
+                    Travel<input type="checkbox" name="c" id="">
+                    Writing<input type="checkbox" name="d" id="">
+                    Dancing<input type="checkbox" name="f" id="">
+                    Other<input type="checkbox" name="f" id="">
+                </div>                
+                    <div id="Other">
+                        <label for="Essay">Write brief about yourself:</label>
+                    <input type="text" placeholder="Minimum 500 words" autocomplete="Off" required>
+                </div>
+                
+                      <div id="Enter-city">
+                        <label for="City">Preferred City:</label>
+                        <input type="text" name="" id="" placeholder="Enter city Where you want Roomie" required autocomplete="off">
+                      </div>  
+
+        <div id="Room-status">
+           <label for="room">Room Status:</label>
+            <select name="g" id="">
+                <option value="">Select</option>
+                <option value="Room">Yes</option>
+                <option value="Room">No</option>
+            </select>
+        </div>
+        <div id="Budget">
+            <label for="Budget">Budget:</label>
+            <select name="g" id="">
+                <option value="Room">Select</option>
+                <option value="Room">Under 500 pound</option>
+                <option value="Room">Above 500 pound</option>
+            </select>
+
+
+        </div>
+
+                <div id="gg">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset" >
+                </div>
+            </form>
+        </div>
+    </div>
+    </section>
+
+    <section id="news-letter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For New Upcoming Offers</h4>
+            <p>Get E-mail updates about our Latest offers and discounts.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail address">
+            <button class="normal">Sign up</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="column">
+            <img class="logo" src="Other/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Holloway road, London</p>
+            <p><strong>Phone:</strong> +447553687077</p>
+            <p><strong>Hours:</strong> 10:00 - 22:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+    
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">Find roomies</a>
+            <a href="#">My preference</a>
+            <a href="#">My Contract</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="column install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="Payments/app.jpg" alt="">
+                <img src="Payments/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="Payments/pay.png" alt="">
+        </div>
+    
+        <div class="copyright">
+            <p>@ 2024, Fantastic Five - HTML CSS JavaScript Roomies Prototype</p>
+        </div>
+    
+    </footer>
+    
+    </body>
+    </html>
